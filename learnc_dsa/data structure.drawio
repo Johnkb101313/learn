@@ -1,0 +1,153 @@
+<mxfile host="Electron" modified="2024-01-06T04:02:44.336Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="esfP1qpsDTLoSBfzR6J1" version="22.1.16" type="device" pages="4">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Data Structures">
+    <mxGraphModel dx="2243" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-1" value="Main Memory / RAM" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="710" y="385" width="200" height="405" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-58" value="-------------&lt;br&gt;-------------&lt;br&gt;-------------&lt;br&gt;-------------&lt;br&gt;-------------" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="sA_c_a4_YlRTQEc2I3pd-1" vertex="1">
+          <mxGeometry x="20" y="285" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-59" value="MS-Word prog machine code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sA_c_a4_YlRTQEc2I3pd-1" vertex="1">
+          <mxGeometry x="20" y="260" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-69" value="-------------&lt;br&gt;-------------&lt;br&gt;-------------&lt;br&gt;-------------&lt;br&gt;-------------" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="sA_c_a4_YlRTQEc2I3pd-1" vertex="1">
+          <mxGeometry x="20" y="105" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-70" value=".docx file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sA_c_a4_YlRTQEc2I3pd-1" vertex="1">
+          <mxGeometry x="20" y="75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-7" value="&lt;h1&gt;Data Structures&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Define: arrangement of collection of data items so that they can be utilized efficiently, operations on that data can be done efficiently.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Where: Inside the main memory during the execution of a program.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;shadow=0;glass=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-260" y="430" width="490" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-9" value="組成程式的兩大部分" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-210" y="200" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-10" value="1. Instruction" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="sA_c_a4_YlRTQEc2I3pd-9" vertex="1">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-11" value="2. Data and Data structure" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="sA_c_a4_YlRTQEc2I3pd-9" vertex="1">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-15" value="Every application will have a set of Instruction which will perform operation on data" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;curveFitting=1;jiggle=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-250" y="80" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sA_c_a4_YlRTQEc2I3pd-17" target="sA_c_a4_YlRTQEc2I3pd-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-17" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="750" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-20" value="execute the instruction" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="950" y="245" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.35;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sA_c_a4_YlRTQEc2I3pd-17" target="sA_c_a4_YlRTQEc2I3pd-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.65;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sA_c_a4_YlRTQEc2I3pd-1" target="sA_c_a4_YlRTQEc2I3pd-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sA_c_a4_YlRTQEc2I3pd-31" target="sA_c_a4_YlRTQEc2I3pd-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-31" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;container=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="380" y="440" width="220" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-47" value="-------------&lt;br&gt;-------------&lt;br&gt;-------------&lt;br&gt;-------------&lt;br&gt;-------------" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="sA_c_a4_YlRTQEc2I3pd-31" vertex="1">
+          <mxGeometry x="20" y="100" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-49" value="&lt;p&gt;Prog File&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sA_c_a4_YlRTQEc2I3pd-31" vertex="1">
+          <mxGeometry x="20" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-50" value="Data File" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sA_c_a4_YlRTQEc2I3pd-31" vertex="1">
+          <mxGeometry x="120" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-51" value="-------------&lt;br&gt;-------------&lt;br&gt;-------------&lt;br&gt;-------------&lt;br&gt;-------------" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="sA_c_a4_YlRTQEc2I3pd-31" vertex="1">
+          <mxGeometry x="120" y="100" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-52" value="&lt;p&gt;MS-Word&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sA_c_a4_YlRTQEc2I3pd-31" vertex="1">
+          <mxGeometry x="30" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-53" value=".docx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sA_c_a4_YlRTQEc2I3pd-31" vertex="1">
+          <mxGeometry x="130" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-32" value="HDD Storage / external storage / storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="371.25" y="410" width="237.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-34" value="Temporary memory that is a working memory.&lt;br&gt;Also called as primary memory" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="990" y="370" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sA_c_a4_YlRTQEc2I3pd-34" target="sA_c_a4_YlRTQEc2I3pd-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-39" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sA_c_a4_YlRTQEc2I3pd-38" target="sA_c_a4_YlRTQEc2I3pd-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-38" value="&lt;h3 style=&quot;&quot;&gt;Permanent Storage&lt;/h3&gt;&lt;div&gt;When we install any program in our P.C. or on our moblie phone, a program or an application will get installed on storage.&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="510" width="170" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sA_c_a4_YlRTQEc2I3pd-54" target="sA_c_a4_YlRTQEc2I3pd-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-54" value="When Run MS-Word" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;swimlaneLine=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="260" y="850" width="330" height="120" as="geometry">
+            <mxRectangle x="470" y="840" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-55" value="1. MS-Word 該程式將被帶入 Main Memory / RAM" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;swimlaneLine=1;rounded=0;" parent="sA_c_a4_YlRTQEc2I3pd-54" vertex="1">
+          <mxGeometry y="30" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-56" value="2. CPU 執行 MS-Word 的 machine code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;swimlaneLine=1;rounded=0;" parent="sA_c_a4_YlRTQEc2I3pd-54" vertex="1">
+          <mxGeometry y="60" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-57" value="3. MS-Word 被打開" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;swimlaneLine=1;rounded=0;" parent="sA_c_a4_YlRTQEc2I3pd-54" vertex="1">
+          <mxGeometry y="90" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-62" value="When we use MS-Word to access or modify a docx file" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="640" y="860" width="390" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-63" value="1. docx 文件將被帶入 Main Memory / RAM" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sA_c_a4_YlRTQEc2I3pd-62" vertex="1">
+          <mxGeometry y="30" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-64" value="2. 如果 MS-Word 需要加載 docx 文件, docx 需要先被帶入 Main Memory / RAM, 所以現在 MS-Word 能對 docx 文件進行操作" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sA_c_a4_YlRTQEc2I3pd-62" vertex="1">
+          <mxGeometry y="60" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-71" value="Programe can not directly process the data keeping it on the storage.&lt;br&gt;The data has to brought into the main memory." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;curveFitting=1;jiggle=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="230" y="1010" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-72" value="Every appliction deals with some data,&lt;br&gt;whether it is MS-Word or if it is chrome, you are browsing any web page, then that page when it is coming from internet it has to be in main memory.&lt;br&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;curveFitting=1;jiggle=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="480" y="1010" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sA_c_a4_YlRTQEc2I3pd-73" value="結論: 任何應用程式當要處理一些數據的時候, 這些數據都需要被帶到 Main Memory / RAM 才能被處理.&lt;br&gt;而這些數據如何在 Main Memory / RAM 中組織存放, 去供應用程式能夠有效率地使用, 這就是DATA STRUCTURE" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="720" y="990" width="370" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YwfYPrFymK4U1564f_Wi" name="Databases">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Pyrifz2EQW58aCv7HIFH" name="Data warehouse">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3vEJfPC0K2CeENGGvpUy" name="Big data">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,128 @@
+<mxfile host="Electron" modified="2024-01-06T05:36:59.375Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="AJktzRlSmzuVugjC4PYj" version="22.1.16" type="device">
+  <diagram name="第1頁" id="xg8uBqYAGHwSVvU40WZl">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-49" value="stack frame of main function" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="249" y="370" width="100" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="N5UdSo8uXOLKc8-OnNho-1" value="Main Memory / RAM" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="363" y="290" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="N5UdSo8uXOLKc8-OnNho-1" vertex="1">
+          <mxGeometry y="150" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-9" value="" style="rounded=0;whiteSpace=wrap;html=1;container=1;" parent="N5UdSo8uXOLKc8-OnNho-1" vertex="1">
+          <mxGeometry y="30" width="200" height="120" as="geometry">
+            <mxRectangle y="30" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-42" value="" style="whiteSpace=wrap;html=1;rounded=0;" parent="AoKqgpjrjyZqulnbSBdS-9" vertex="1">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-43" value="int a (4 bytes)" style="rounded=0;whiteSpace=wrap;html=1;" parent="AoKqgpjrjyZqulnbSBdS-42" vertex="1">
+          <mxGeometry x="10" y="5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-44" value="float b (4 bytes)" style="rounded=0;whiteSpace=wrap;html=1;" parent="AoKqgpjrjyZqulnbSBdS-42" vertex="1">
+          <mxGeometry x="105" y="5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-10" value="" style="rounded=0;whiteSpace=wrap;html=1;container=1;" parent="N5UdSo8uXOLKc8-OnNho-1" vertex="1">
+          <mxGeometry y="270" width="200" height="120" as="geometry">
+            <mxRectangle y="270" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-39" value="main.c&lt;br&gt;0010101010&lt;br&gt;0100100100&lt;br&gt;0000010001&lt;br&gt;00000111111&lt;br&gt;11111100101&lt;br&gt;0100101011" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AoKqgpjrjyZqulnbSBdS-10" vertex="1">
+          <mxGeometry x="20" y="5" width="70" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="N5UdSo8uXOLKc8-OnNho-2" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="403" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N5UdSo8uXOLKc8-OnNho-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.35;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="N5UdSo8uXOLKc8-OnNho-2" target="N5UdSo8uXOLKc8-OnNho-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N5UdSo8uXOLKc8-OnNho-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.65;exitY=-0.002;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="N5UdSo8uXOLKc8-OnNho-1" target="N5UdSo8uXOLKc8-OnNho-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;container=1;" parent="1" vertex="1">
+          <mxGeometry x="17.75" y="357.5" width="220" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-3" value="-------------&lt;br&gt;-------------&lt;br&gt;-------------&lt;br&gt;-------------&lt;br&gt;-------------" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="AoKqgpjrjyZqulnbSBdS-1" vertex="1">
+          <mxGeometry x="70.25" y="100" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-4" value="Prog file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AoKqgpjrjyZqulnbSBdS-1" vertex="1">
+          <mxGeometry x="70.25" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-5" value="main.c" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AoKqgpjrjyZqulnbSBdS-1" vertex="1">
+          <mxGeometry x="80.25" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-2" value="HDD Storage / external storage / storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="9" y="327.5" width="237.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-11" value="Stack" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="573" y="357.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-12" value="Heap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="573" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-13" value="Code Section" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="573" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="AoKqgpjrjyZqulnbSBdS-15" target="AoKqgpjrjyZqulnbSBdS-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-15" value="program resides here" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="653" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-24" value="&lt;h1&gt;How program utilizes main memory&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="133" y="90" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-27" value="&lt;h1&gt;main.c&lt;/h1&gt;&lt;p&gt;int main()&lt;/p&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int a;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;float&amp;nbsp;b;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;return 0;&lt;br&gt;&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="9" y="680" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-28" value="0x0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="303" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-29" value="0xFFFF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="563" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-30" value="one segment of memory&lt;br&gt;size: 64KB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="373" y="682.5" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-31" value="program uses the main memory by dividing into three sections, stack, heap and code section." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="303" y="740" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-32" value="When run a program &quot;main.c&quot;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="108" y="850" width="710" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-33" value="1. 首先 main.c 的 machine code 將被帶入 main memory 中的 code section 部分&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="AoKqgpjrjyZqulnbSBdS-32" vertex="1">
+          <mxGeometry y="30" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-34" value="2. code section 的大小不是固定的, 它根據我們的 program 大小而定, 例子中, 它會根據 main.c 的大小而定" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="AoKqgpjrjyZqulnbSBdS-32" vertex="1">
+          <mxGeometry y="60" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-35" value="3. 以上 main.c 加載完成後, CPU 將會執利 program( main.c ) 的 machine code, 并且 program( main.c ) 會利用剩餘的空間分成 stack 和 heap" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="AoKqgpjrjyZqulnbSBdS-32" vertex="1">
+          <mxGeometry y="90" width="710" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-41" value="4. 分配程式需要的空間 ( 分配的空間大小由 compiler 決定 ), 例如現在 program ( main.c ) 的 main function 入面有 int, float, compiler 決定 int 的大小為 4 bytes, float 的大小為 4 bytes, 那麼一共需要 8 bytes. 那麼這些空間應在那裡被分配? 答案就是 stack, 由於現在執行的 function 為 main, 所以會在 stack 中分配一個空間給 main function 執行, 而這個空間大小為 8 bytes, 原因一開始已提及. 而此空間名為 stack frame 或 activation record, 而該空間屬於 main function, 所以被叫為 stack frame of main function 或 activation record of main function." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="AoKqgpjrjyZqulnbSBdS-32" vertex="1">
+          <mxGeometry y="130" width="710" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-36" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.002;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="AoKqgpjrjyZqulnbSBdS-1" target="N5UdSo8uXOLKc8-OnNho-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="263" y="540" as="sourcePoint" />
+            <mxPoint x="313" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AoKqgpjrjyZqulnbSBdS-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="AoKqgpjrjyZqulnbSBdS-42" target="AoKqgpjrjyZqulnbSBdS-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sT3tV9idOxXWBp-2bH0E-1" value="該例子中, 可以見到在未實際執行 main.c 中的 main function 前, compiler 會預先分配空間給 main function, 該時段處於 compile time, 而在程式未執行前而預先分配好空間的行為就是 static memory allocation.&lt;br&gt;static 的位在於 memory, memory 的大小在 run time 前已固定好不會受改變.&lt;br&gt;(個人理解是stack frame的大小分配 = static memory allocation, 原因是stack frame的大小在執行該function 前已預先知道要幾大)&lt;br&gt;總之在run time之前預先分配好空間的行為都叫 static memory allocation." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="108" y="1090" width="712" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_3qhWV2c_v1nsilWei9h-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="AoKqgpjrjyZqulnbSBdS-27" target="AoKqgpjrjyZqulnbSBdS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

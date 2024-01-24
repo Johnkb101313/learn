@@ -1,0 +1,53 @@
+printf 本身不是c 的一部分
+c 本身并沒有定義輸出/輸入功能
+printf 只係一個在標準庫中的funcs
+ANSI標準定義了printf的行為
+所以每個符合該標準的compiler和庫, printf的屬性都一樣
+
+float fahr;
+int lower, upper;
+
+fahr = lower, int 轉 float
+fahr <= upper, int 轉 float後進行運算
+
+printf的一點知識
+%d
+%6d
+%f
+%6f
+%6.2f
+
+printf 允許 後面參數在符合前面匹配符前提下, 使用更複雜的表達式, 例如 printf("%3.1f", 3.0 / 2.0);
+                                                                        float     1.5 = float
+
+1-5 *** PIN
+https://c.biancheng.net/view/345.html *** PIN
+
+EOF EOF is defined in stdio.h header file
+some system #define EOF -1
+some system #define EOF <other value>
+這使得EOF等標準符號常量能夠增加programe的可移植性
+人話:你在你的程序當中使用標準符號常量就能夠增加programe的可移植性
+          盡可能不要使用字面常量,比如不要用-1來判斷文件結尾, 因為有一些系統對EOF的定義可能不是-1, 這使得你的programe移植性不好
+自己理解的就是符號常量能在programe跑之前定義好, 所以好移植
+
+概念更正 (https://www.youtube.com/watch?v=WM4AjsigcPY):
+1.
+char *str1 = "hello"; 不等於 char str2[] = "hello";
+區別在於 str1存的是 pointer, 而這個pointer是指向 compiler , 系統給的字元陣列空間, 屬於唯讀, 所以不能夠改寫裡面的字元 
+str1[0] = 'T' // error
+而str2是屬於是user開的空間 , 初始化打"hello", 每個字元放進 str2 所開的這塊空間
+(如果想了解 const char *str3 又是甚麼)詳情可看:https://www.youtube.com/watch?v=WM4AjsigcPY
+快速回憶:
+```c
+char strA[] = "test";
+char *strB = "test";
+const char *strC = "test";
+strA[0] = 'T'; // O
+strB[0] = 'T'; // X (未定義行為)
+strC[0] = 'T'; // X (compile fail)
+```
+2. (待驗證)
+一個陣列之所以可以 直接 assign 到另一個 pointer 是因為:
+int arr[] = {1, 2, 3, 4, 5};
+int *p = arr; // (int arr[] 會 隱性轉換成 int * arr)
