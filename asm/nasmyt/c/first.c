@@ -1,13 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-void func(){
-   exit(1);
-}
 
 int main()
 {
-   func();
-   printf("Hello world");
-   exit(1);
+   float a = 2.1;
+   float b = 2.10;
+   if((a - b) == 0) {
+      printf("Hello world!");
+   }
+   return 0;
 }
