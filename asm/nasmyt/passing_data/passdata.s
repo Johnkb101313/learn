@@ -17,3 +17,4 @@ _start:
    MOV ebx,eax
    MOV eax,1
    INT 80h
+;why we need to passdata to function throught stack, because register are precious resource for us and we don't know how many data we will use
