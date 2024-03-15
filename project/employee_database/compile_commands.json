@@ -1,0 +1,47 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-iquote",
+      "include",
+      "-Wall",
+      "-o",
+      "main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/johnkb/learn/project/employee_database",
+    "file": "/home/johnkb/learn/project/employee_database/src/main.c",
+    "output": "/home/johnkb/learn/project/employee_database/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-iquote",
+      "include",
+      "-Wall",
+      "-o",
+      "file.o",
+      "src/file.c"
+    ],
+    "directory": "/home/johnkb/learn/project/employee_database",
+    "file": "/home/johnkb/learn/project/employee_database/src/file.c",
+    "output": "/home/johnkb/learn/project/employee_database/file.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-iquote",
+      "include",
+      "-Wall",
+      "-o",
+      "parse.o",
+      "src/parse.c"
+    ],
+    "directory": "/home/johnkb/learn/project/employee_database",
+    "file": "/home/johnkb/learn/project/employee_database/src/parse.c",
+    "output": "/home/johnkb/learn/project/employee_database/parse.o"
+  }
+]
