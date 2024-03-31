@@ -63,6 +63,22 @@ int hton_db_header(struct db_header *const header)
    return STATUS_SUCCESS;
 }
 
+int ntoh_employee(struct employee *const employee_)
+{
+   employee_->id = ntohl(employee_->id);
+   employee_->hours = ntohl(employee_->hours);
+
+   return STATUS_SUCCESS;
+}
+
+int hton_employee(struct employee *const employee_)
+{
+   employee_->id = htonl(employee_->id);
+   employee_->hours = htonl(employee_->hours);
+
+   return STATUS_SUCCESS;
+}
+
 void print_db_header(struct db_header *const header)
 {
    printf("--- header ---\n"
@@ -70,9 +86,21 @@ void print_db_header(struct db_header *const header)
           "version: %hu\n"
           "filesize: %u\n"
           "count: %u\n"
-          "--------------\n",\
-          header->magic,\
-          header->version,\
-          header->filesize,\
+          "--------------\n",
+          header->magic,
+          header->version,
+          header->filesize,
           header->count);
+}
+
+void print_employee(struct employee *const employee_)
+{
+      printf("id: %u\n"
+             "name: %s\n"
+             "address: %s\n"
+             "hours: %u\n", 
+             employee_->id,
+             employee_->name, 
+             employee_->address,
+             employee_->hours);
 }
