@@ -3,7 +3,7 @@ import sys
 
 tcp_client_s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-tcp_client_s.connect(("192.168.217.232", 8080))
+tcp_client_s.connect(("192.168.179.232", 8080))
 
 while True:
 	menu_option = input("0:List all files\n1:Download file\n2:Leave\nEnter a list number: ")

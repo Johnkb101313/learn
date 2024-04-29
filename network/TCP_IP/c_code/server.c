@@ -1,6 +1,36 @@
 #include <stdio.h>
+#include <unistd.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
+#include <arpa/inet.h>
+
+enum PROTO_TYPE {
+	PROTO_HELLO
+};
+
+// TLV (type-length-value format)
+struct tlv_t {
+	unsigned int type;
+	unsigned int length;
+};
+
+int handle_client(int fd) 
+{
+	char msg[8192] = {0};
+	struct tlv_t *tlv_header = msg;
+
+	tlv_header->type = htonl(PROTO_HELLO);
+	tlv_header->length = htonl(sizeof(unsigned int));
+	*(int *)(tlv_header + 1) = htonl(1);
+
+	if (write(fd, msg, sizeof(struct tlv_t) + tlv_header->length) == -1)
+	{
+		perror("write");
+		return -1;
+	};
+
+	return 0;
+}
 
 int main()
 {
@@ -37,12 +67,13 @@ int main()
 	socklen_t size = sizeof(struct sockaddr_in);
 
 	int client_socket = accept(socket_fd, (struct sockaddr *)&clientInfo, &size);
-
 	if (client_socket == -1) {
 		perror("accept");
 		close(socket_fd);
 		return -1;
 	}
+
+	handle_client(client_socket);
 
 	close(socket_fd);
 
