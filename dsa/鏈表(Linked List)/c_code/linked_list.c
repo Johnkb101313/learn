@@ -21,7 +21,6 @@ typedef struct Node {
 // 為了方便打印, 所以加多了這個結構
 typedef struct NodeList {
 	Node *head;
-	Node *tail;
 	unsigned int len;
 } NodeList;
 
@@ -55,7 +54,6 @@ NodeList *list_new(int val)
 	if (val != 0) node->data = val;
 
 	list->head = node;
-	list->tail = node;
 	list->len = 1;
 
 	return list;
@@ -92,18 +90,6 @@ void list_print(NodeList *list)
 	printf("list->len = %u\n", list->len);
 
 	return;
-}
-
-int list_append(NodeList *list, int val)
-{
-	Node *node = node_new(val);
-	if (node == LIST_PTR_ERROR_CODE) return LIST_ERROR_CODE;
-
-	list->tail->next = node;
-	list->tail = node;
-	list->len++;
-
-	return 0;
 }
 
 // 無頭鏈表的插入操作代碼
